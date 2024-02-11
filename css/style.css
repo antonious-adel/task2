@@ -1,0 +1,67 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.car{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: 250px 250px;
+}
+
+.col{
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#allprice{
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    margin: auto;
+    margin-top: 20px;
+}
+.div1{
+    background-image: url(../images/2018-mercedes-benz-gls-63-noir-032.png);
+   background-position-x: -30px;
+}
+.div2{
+    background-image: url(../images/2024-mercedes-benz-eqg-carbuzz-891942-1600.jpg);
+}
+.div3{
+    background-image: url(../images/Maclarean\ SLR\ 707.jpg);
+    background-position-x: -15px;
+}
+.div4{
+    background-image: url(../images/Mercedes-Benz-GLE.webp);
+    background-position-x: -15px;
+}
+.div5{
+    background-image: url(../images/Mercedes-slc.jpg);
+    background-position-x: -50px;
+}
+.div6{
+    background-image: url(../images/mercedes-benz-g-class.jpg);
+    background-position-x: -80px;
+
+}
+.div7{
+    background-image: url(../images/Mercedes-VISION-EQS_1600px.jpg);
+    background-position-x: -110px;
+}
+.div8{
+    background-image: url(../images/2014-Mercedes-Benz-CLA-Class-20.jpg);
+    background-position-x: -80px;
+}
+a{
+    text-align: center;
+    display: block;
+    margin-top: 220px;
+    color: #fff;
+    background-color: black;
+}
